@@ -1,0 +1,17 @@
+# ABMP Global Network Protocol - Production Requirements
+# World's First Bio-Inspired Quantum-Safe Network Protocol
+
+# Core dependencies
+numpy>=1.21.0
+psutil>=5.9.0
+
+# Optional performance enhancements
+uvloop>=0.17.0; sys_platform != "win32"
+ujson>=5.0.0
+
+# Development and testing (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+mypy>=1.0.0
+black>=22.0.0
+flake8>=5.0.0
